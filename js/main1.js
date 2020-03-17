@@ -105,59 +105,13 @@
             $('select').niceSelect();
         }
 
-        //about-pro-active
-        $('.details_active').owlCarousel({
-            loop: true,
-            margin: 0,
-            items: 1,
-            // autoplay:true,
-            navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
-            nav: true,
-            dots: false,
-            // autoplayHoverPause: true,
-            // autoplaySpeed: 800,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false
 
-                },
-                767: {
-                    items: 1,
-                    nav: false
-                },
-                992: {
-                    items: 1,
-                    nav: false
-                },
-                1200: {
-                    items: 1,
-                }
-            }
-        });
+
 
     });
 
-    // resitration_Form
-    $(document).ready(function() {
-        $('.popup-with-form').magnificPopup({
-            type: 'inline',
-            preloader: false,
-            focus: '#name',
 
-            // When elemened is focused, some mobile browsers in some cases zoom in
-            // It looks not nice, so we disable it:
-            callbacks: {
-                beforeOpen: function() {
-                    if ($(window).width() < 700) {
-                        this.st.focus = false;
-                    } else {
-                        this.st.focus = '#name';
-                    }
-                }
-            }
-        });
-    });
+
 
 
 
@@ -169,26 +123,7 @@
 
 
 
-    // Search Toggle
-    $("#search_input_box").hide();
-    $("#search").on("click", function() {
-        $("#search_input_box").slideToggle();
-        $("#search_input").focus();
-    });
-    $("#close_search").on("click", function() {
-        $('#search_input_box').slideUp(500);
-    });
-    // Search Toggle
-    $("#search_input_box").hide();
-    $("#search_1").on("click", function() {
-        $("#search_input_box").slideToggle();
-        $("#search_input").focus();
-    });
-    $(document).ready(function() {
-        $('select').niceSelect();
-    });
 
-    // prise slider 
 
 
 
