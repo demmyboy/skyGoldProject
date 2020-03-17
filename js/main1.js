@@ -27,9 +27,9 @@
                 openedSymbol: '-'
             });
         };
-        // blog-menu
+        // //blog-menu
         // $('ul#blog-menu').slicknav({
-        //   prependTo: ".blog_menu"
+        //     prependTo: ".blog_menu"
         // });
 
 

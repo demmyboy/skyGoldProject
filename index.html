@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="bootstrap-select-1.13.9/dist/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="//unpkg.com/bootstrap-select-country@4.0.0/dist/css/bootstrap-select-country.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="css/slicknav.css"> -->
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/fixed.css">
@@ -28,409 +29,427 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <!-- beginning of header -->
-    <header>
-        <div class="header-area ">
-            <div class="header-top_area d-none d-lg-block">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="img/skygoldLogo.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-md-8">
-                            <div class="header_right d-flex align-items-center">
-                                <div class="short_contact_list">
-                                    <ul>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-envelope"></i> info@skygold.co.za</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-phone"></i> 234-2633766</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="site-wrap" id="home-section">
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
                 </div>
             </div>
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-12 d-block d-lg-none">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="img/skygoldLogo.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-12 col-lg-12">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="#aboutUs-section">about</a></li>
-                                            <li><a href="about.html">why us</a></li>
-
-                                            <li><a href="#">services <i class="fa fa-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="service_details.html">Products</a></li>
-                                                    <li><a href="elements.html">CCTV Surveillance</a></li>
-                                                </ul>
-                                            </li>
-
-                                            <li><a href="about.html">Consultation</a></li>
-                                            <li><a href="about.html">Partners</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="site-mobile-menu-body"></div>
         </div>
-    </header>
-    <!-- end of header -->
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1">
+        <!-- first header -->
+        <div class="top-bar">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="slider_text text-center justify-content-center">
-                            <h3>SKYGOLD SYSTEMS</h3>
-                            <h1 class="subMenu text-white pb-4">Microsoft Consulting</h1>
-                            <a class="boxed-btn3" href="service.html">Our Services</a>
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#">
+                            <span class="mr-2"><i class="fa fa-envelope-square"></i></span>
+                            <span class="d-none d-md-inline-block">info@skygold.co.za</span>
+                        </a>
+                        <span class="mx-md-2 d-inline-block"></span>
+                        <a href="#">
+                            <span class="mr-2"><i class="fa fa-phone-square"></i></span>
+                            <span class="d-none d-md-inline-block"> 234-2633766</span>
+                        </a>
+
+                        <div class="float-right">
+                            <a href="#" target="_blank">
+                                <span class="mr-2"><i class="fab fa-twitter-square"></i></span>
+                                <span class="d-none d-md-inline-block">Twitter</span>
+                            </a>
+                            <span class="mx-md-2 d-inline-block"></span>
+                            <a href="#" target="_blank">
+                                <span class="mr-2"><i class="fab fa-facebook-square" aria-hidden="true"></i></span>
+                                <span class="d-none d-md-inline-block">Facebook</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- slider_area_end -->
+        <!-- End of first Header -->
+        <!-- beginning of second header -->
+        <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+            <div class="container">
+                <div class="row align-items-center position-relative">
 
-    <!-- start about-us section -->
-    <div id="aboutUs-section" class="aboutus-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 col-sm-6 col-xs-12">
-                    <div class="aboutus">
-                        <h2 class="aboutus-title">About Us</h2>
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="site-logo">
+                            <a href="index.html" class=" text-black navbar-brand"><img src="img/skygoldLogo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8">
+                        <nav class="site-navigation text-right ml-auto navbar-light" role="navigation">
+                            <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                                <li><a href="#home-section" class="nav-link">Home</a></li>
+                                <li><a href="#about-section" class="nav-link">About Us</a></li>
+                                <li><a href="#about-section" class="nav-link">Why Us</a></li>
+                                <li class="nav-item dropdown dmenu">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                                    <div class="dropdown-menu sm-menu">
+                                        <a href="propertyForSale.html" class="dropdown-item">Products</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="propertyToLet.html" class="dropdown-item">CCTV CCTV Surveillance</a>
+                                    </div>
+                                </li>
+                                <li><a href="#about-section" class="nav-link">Consultation</a></li>
+                                <li><a href="#about-section" class="nav-link">Partners</a></li>
+                                <li><a href="#contact-section" class="nav-link">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span
+                                class="icon-menu h3"></span></a></div>
+                </div>
+            </div>
+        </header>
+        <!-- end of second header -->
+
+
+
+
+
+
+        <!-- end of header -->
+        <!-- slider_area_start -->
+        <div class="slider_area">
+            <div class="single_slider  d-flex align-items-center slider_bg_1">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="slider_text text-center justify-content-center">
+                                <h3>SKYGOLD SYSTEMS</h3>
+                                <h1 class="subMenu text-white pb-4">Microsoft Consulting</h1>
+                                <a class="boxed-btn3" href="service.html">Our Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider_area_end -->
+
+        <!-- start about-us section -->
+        <div id="aboutUs-section" class="aboutus-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-sm-6 col-xs-12">
+                        <div class="aboutus">
+                            <h2 class="aboutus-title">About Us</h2>
+                            <p class="aboutus-text text-justify">Skygold Systems (SSI), is a fast growing globally focused Microsoft consulting and implementation firm that’s provides application support and development, enterprise solutions and Infrastructure services to Small and medium
+                                sized companies around the world </p>
+                            <p class="aboutus-text text-justify">Based in South Africa, Skygold Systems is a Microsoft consulting firm with deep focus on helping business adopt and benefit in Cloud technology. We have extensive technical capabilities in Microsoft Azure, Cloud Migration Services,
+                                Microsoft System Centre, Microsoft Office 365, SharePoint Online and Exchange Online. At Skygold Systems, we are equipped with the necessary certified expertise to map out your Cloud journey in the most profitable and beneficial
+                                way. Our highly effective team of business specialists and service providers work with best practices and state-of-the-art solutions to develop, execute a transformation road-map that will suit your business needs and enhance
+                                your productivity and Cloud experience. </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="feature">
+
+                            <div class="feature-box">
+                                <div class="clearfix">
+
+                                    <div class="feature-content">
+                                        <h4>Reliable services</h4>
+                                        <p>Each research study contributes to an existing body of knowledge. Usually, more weight can be given to study findings that support and build.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-box">
+                                <div class="clearfix">
+
+                                    <div class="feature-content">
+                                        <h4>Great support</h4>
+                                        <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end about-us section -->
+        <!-- start why choose us -->
+        <div class="service_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 aboutus">
+                        <h2 class="aboutus-title">Why Chose us</h2>
                         <p class="aboutus-text text-justify">Skygold Systems (SSI), is a fast growing globally focused Microsoft consulting and implementation firm that’s provides application support and development, enterprise solutions and Infrastructure services to Small and medium sized
                             companies around the world </p>
-                        <p class="aboutus-text text-justify">Based in South Africa, Skygold Systems is a Microsoft consulting firm with deep focus on helping business adopt and benefit in Cloud technology. We have extensive technical capabilities in Microsoft Azure, Cloud Migration Services,
-                            Microsoft System Centre, Microsoft Office 365, SharePoint Online and Exchange Online. At Skygold Systems, we are equipped with the necessary certified expertise to map out your Cloud journey in the most profitable and beneficial
-                            way. Our highly effective team of business specialists and service providers work with best practices and state-of-the-art solutions to develop, execute a transformation road-map that will suit your business needs and enhance
-                            your productivity and Cloud experience. </p>
+                    </div>
+                </div>
+                <div class="features_main_wrap chose_area">
+                    <div class="row  align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-6">
+                            <h4 class="text-dark">Azure Cloud Solutions</h4>
+                            <div class="about_image">
+                                <img src="img/MSAzure1.jpg" alt="MSAzure">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features_info">
+                                <p class="text-dark">With our expertise and years of experience in cloud computing, we can help turn your ideas into solutions faster using a trusted cloud solution.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features_main_wrap chose_area">
+                    <div class="row  align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-6">
+                            <h4 class="text-dark">Dynamics 365 Solution</h4>
+                            <div class="about_image">
+                                <img src="img/dynamics365.png" alt="Dynamic 365">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features_info">
+                                <p class="text-dark">Attracting, winning, and retaining customers is the foundation for success. Thriving businesses find new and innovative channels to attract prospects, execute sales processes to win deals faster, and deliver world-class
+                                    customer experiences to maximize customer loyalty. End-to-end applications that work great on their own and even better together.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features_main_wrap chose_area">
+                    <div class="row  align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-6">
+                            <h4 class="text-dark">SharePoint Online</h4>
+                            <div class="about_image">
+                                <img src="img/sharepointOnline.png" alt="Dynamic 365">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features_info">
+                                <p class="text-dark">SharePoint online delivers the most powerful features of SharePoint without the associated overhead of managing the infrastructure on your own.With Flexible management options, we at Skygold Systems ensure that you still
+                                    retain the control you need to meet the compliance requirement of your organisation.You can also purchase SharePoint in the Cloud as a standalone offering or as part of an Office 365 suite, where you also get access
+                                    to Exchange, OneDrive for Business Skype for Business, Office Clients and web apps.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features_main_wrap chose_area">
+                    <div class="row  align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-6">
+                            <h4 class="text-dark">Office 365 (Collaboration)</h4>
+                            <div class="about_image">
+                                <img src="img/office365.png" alt="Dynamic 365">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features_info">
+                                <p>Collaborate online or in the Office apps and Transform your business with the world’s best Office 365 migration consultants. Move to the cloud seamlessly, on time, and on budget. Our Office 365 services includes licensing,
+                                    migration, support, implementation and design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features_main_wrap chose_area">
+                    <div class="row  align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-6">
+                            <h4 class="text-dark">Datacentre Management</h4>
+                            <div class="about_image">
+                                <img src="img/dataCenter.jpg" alt="Datacenter management">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features_info">
+                                <p>With System center you can stay in control of your IT across your environment and platforms. Transform your business with a solution that offers a faster time to value, Efficient Operations, Support for multiple systems
+                                    and Cloud Integration.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end why choose us -->
+        <!-- start of consultation -->
+        <div class="contact_action_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 aboutus ">
+                        <h2 class="aboutus-title consultation">Consultation</h2>
 
                     </div>
                 </div>
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="action_heading">
+                            <h3>Get more done with quality staff on-demand</h3>
+                            <p>We simplify temporary recruitment so you can focus on what matters most, giving you the best skills in Information Technology</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="action_heading">
+                            <h3>We help you recruit the best people for your business</h3>
+                            <p>Superior People Recruitment is renowned for high quality service and reliability when it comes to finding you the ideal match to fill your vacancies. With clients and staff in every major city across South Africa, we have matched
+                                up thousands of happy candidates with their ideal employers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of consultation -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="feature">
 
-                        <div class="feature-box">
-                            <div class="clearfix">
-
-                                <div class="feature-content">
-                                    <h4>Reliable services</h4>
-                                    <p>Each research study contributes to an existing body of knowledge. Usually, more weight can be given to study findings that support and build.</p>
+        <!--Contact Section-->
+        <div class="site-section" id="contact-section">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xl-12 aboutus pt-5 ">
+                        <h2 class="aboutus-title text-white">Contact Us</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-8 mb-5 " data-aos="fade-up " data-aos-delay="100 ">
+                        <form action="contact.php " method="post " id="contact-form " name="sentMessage ">
+                            <div class="form-group row ">
+                                <div class="col-md-6 mb-4 mb-lg-0 ">
+                                    <input id="form-name " name="firstName " type="text " class="form-control " placeholder="First name " required="required " data-error="firstName is required. ">
+                                    <div class="help-block with-errors "></div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <input id="form-lastName " name="lastName " type="text " class="form-control " placeholder="Last name " required="required " data-error="lastName is required. ">
+                                    <div class="help-block with-errors "></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="feature-box">
-                            <div class="clearfix">
 
-                                <div class="feature-content">
-                                    <h4>Great support</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                            <div class="form-group row ">
+                                <div class="col-md-12 ">
+                                    <input id="form-email " name="email " type="email " class="form-control " placeholder="Email address " required="required " data-error="email is required. ">
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end about-us section -->
-    <!-- start why choose us -->
-    <div class="service_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 aboutus">
-                    <h2 class="aboutus-title">Why Chose us</h2>
-                    <p class="aboutus-text text-justify">Skygold Systems (SSI), is a fast growing globally focused Microsoft consulting and implementation firm that’s provides application support and development, enterprise solutions and Infrastructure services to Small and medium sized
-                        companies around the world </p>
-                </div>
-            </div>
-            <div class="features_main_wrap chose_area">
-                <div class="row  align-items-center">
-                    <div class="col-xl-5 col-lg-5 col-md-6">
-                        <h4 class="text-dark">Azure Cloud Solutions</h4>
-                        <div class="about_image">
-                            <img src="img/MSAzure1.jpg" alt="MSAzure">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="features_info">
-                            <p class="text-dark">With our expertise and years of experience in cloud computing, we can help turn your ideas into solutions faster using a trusted cloud solution.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="features_main_wrap chose_area">
-                <div class="row  align-items-center">
-                    <div class="col-xl-5 col-lg-5 col-md-6">
-                        <h4 class="text-dark">Dynamics 365 Solution</h4>
-                        <div class="about_image">
-                            <img src="img/dynamics365.png" alt="Dynamic 365">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="features_info">
-                            <p class="text-dark">Attracting, winning, and retaining customers is the foundation for success. Thriving businesses find new and innovative channels to attract prospects, execute sales processes to win deals faster, and deliver world-class customer
-                                experiences to maximize customer loyalty. End-to-end applications that work great on their own and even better together.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="features_main_wrap chose_area">
-                <div class="row  align-items-center">
-                    <div class="col-xl-5 col-lg-5 col-md-6">
-                        <h4 class="text-dark">SharePoint Online</h4>
-                        <div class="about_image">
-                            <img src="img/sharepointOnline.png" alt="Dynamic 365">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="features_info">
-                            <p class="text-dark">SharePoint online delivers the most powerful features of SharePoint without the associated overhead of managing the infrastructure on your own.With Flexible management options, we at Skygold Systems ensure that you still retain
-                                the control you need to meet the compliance requirement of your organisation.You can also purchase SharePoint in the Cloud as a standalone offering or as part of an Office 365 suite, where you also get access to Exchange,
-                                OneDrive for Business Skype for Business, Office Clients and web apps.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="features_main_wrap chose_area">
-                <div class="row  align-items-center">
-                    <div class="col-xl-5 col-lg-5 col-md-6">
-                        <h4 class="text-dark">Office 365 (Collaboration)</h4>
-                        <div class="about_image">
-                            <img src="img/office365.png" alt="Dynamic 365">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="features_info">
-                            <p>Collaborate online or in the Office apps and Transform your business with the world’s best Office 365 migration consultants. Move to the cloud seamlessly, on time, and on budget. Our Office 365 services includes licensing,
-                                migration, support, implementation and design</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="features_main_wrap chose_area">
-                <div class="row  align-items-center">
-                    <div class="col-xl-5 col-lg-5 col-md-6">
-                        <h4 class="text-dark">Datacentre Management</h4>
-                        <div class="about_image">
-                            <img src="img/dataCenter.jpg" alt="Datacenter management">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="features_info">
-                            <p>With System center you can stay in control of your IT across your environment and platforms. Transform your business with a solution that offers a faster time to value, Efficient Operations, Support for multiple systems and
-                                Cloud Integration.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end why choose us -->
-    <!-- start of consultation -->
-    <div class="contact_action_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 aboutus ">
-                    <h2 class="aboutus-title consultation">Consultation</h2>
 
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-md-6">
-                    <div class="action_heading">
-                        <h3>Get more done with quality staff on-demand</h3>
-                        <p>We simplify temporary recruitment so you can focus on what matters most, giving you the best skills in Information Technology</p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-md-6">
-                    <div class="action_heading">
-                        <h3>We help you recruit the best people for your business</h3>
-                        <p>Superior People Recruitment is renowned for high quality service and reliability when it comes to finding you the ideal match to fill your vacancies. With clients and staff in every major city across South Africa, we have matched
-                            up thousands of happy candidates with their ideal employers.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end of consultation -->
-
-
-    <!--Contact Section-->
-    <div class="site-section" id="contact-section">
-        <div class="container">
-            <div class="row ">
-                <div class="col-xl-12 aboutus pt-5 ">
-                    <h2 class="aboutus-title text-white">Contact Us</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center ">
-                <div class="col-lg-8 mb-5 " data-aos="fade-up " data-aos-delay="100 ">
-                    <form action="contact.php " method="post " id="contact-form " name="sentMessage ">
-                        <div class="form-group row ">
-                            <div class="col-md-6 mb-4 mb-lg-0 ">
-                                <input id="form-name " name="firstName " type="text " class="form-control " placeholder="First name " required="required " data-error="firstName is required. ">
-                                <div class="help-block with-errors "></div>
-                            </div>
-                            <div class="col-md-6 ">
-                                <input id="form-lastName " name="lastName " type="text " class="form-control " placeholder="Last name " required="required " data-error="lastName is required. ">
-                                <div class="help-block with-errors "></div>
-                            </div>
-                        </div>
-
-                        <div class="form-group row ">
-                            <div class="col-md-12 ">
-                                <input id="form-email " name="email " type="email " class="form-control " placeholder="Email address " required="required " data-error="email is required. ">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-
-                        <div class="form-group row ">
-                            <div class="col-md-12 ">
-                                <input id="form-company " name="company " type="text " class="form-control " placeholder="Company ">
-                                <div class="help-block with-errors "></div>
-                            </div>
-                        </div>
-
-                        <div class="form-group row ">
-                            <div class="col-md-12  ">
-                                <input id="form-jobTitle " name="jobTitle " type="text " class="form-control " placeholder="Job Title ">
+                            <div class="form-group row ">
+                                <div class="col-md-12 ">
+                                    <input id="form-company " name="company " type="text " class="form-control " placeholder="Company ">
+                                    <div class="help-block with-errors "></div>
+                                </div>
                             </div>
 
-                        </div>
+                            <div class="form-group row ">
+                                <div class="col-md-12  ">
+                                    <input id="form-jobTitle " name="jobTitle " type="text " class="form-control " placeholder="Job Title ">
+                                </div>
 
-                        <div class="form-group row ">
-                            <div class="col-md-12 ">
-                                <select id="inputState " name="country " class="form-control countrypicker " data-default="ZA " data-flag="true ">
+                            </div>
+
+                            <div class="form-group row ">
+                                <div class="col-md-12 ">
+                                    <select id="inputState " name="country " class="form-control countrypicker " data-default="ZA " data-flag="true ">
                                     <option>Choose Country ...</option>
 
                                 </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group row ">
-                            <div class="col-md-12 ">
-                                <textarea id="form-message " name="message " class="form-control " placeholder="Write your message. " cols="30 " rows="10 "></textarea>
-                                <div class="help-block with-errors "></div>
-                            </div>
-                        </div>
-                        <div class="form-group row ">
-                            <div class="col-md-6 mr-auto ">
-                                <input type="submit" class="btn btn-block text-white py-3 px-5 pageButton" value="Send Message ">
-                            </div>
-                        </div>
-                        <div class="messages "></div>
-                    </form>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
-    <footer class="site-footer">
-        <div class="container border-top pt-5">
-            <div class="row ">
-                <div class="col-md-6 ">
-                    <div class="row ">
-                        <div class="col-md-7 ">
-                            <h4 class="footer-heading mb-4"><i class="fa fa-map-marker "></i> Address</h4>
-                            <p class="text-white">Office ***, Building ***,<br> Pretoria <br>South Africa</p>
-
-                            <h4 class="footer-heading mb-2"><i class="fa fa-envelope-square "></i> Email
-                            </h4>
-                            <p class="text-white">info@skygold.co.za</p>
-
-                            <h4 class="footer-heading mb-2"><i class="fa fa-phone-square "></i> Call Us</h4>
-                            <p class="text-white">+234 25555555</p>
-
-                        </div>
-                        <div class="col-md-4 ml-auto ">
-                            <h2 class="footer-heading mb-4">Features</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="# ">About Us</a></li>
-                                <li><a href="#">Why Us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Partners</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-4 ml-auto ">
-
-                    <div class="mb-5 ">
-                        <h2 class="footer-heading mb-4 ">Subscribe to Newsletter</h2>
-                        <form action="# " method="post " class="footer-suscribe-form ">
-                            <div class="input-group mb-3 ">
-                                <input type="text " class="form-control border-secondary text-white bg-transparent " placeholder="Enter Email " aria-label="Enter Email " aria-describedby="button-addon2 ">
-                                <div class="input-group-append ">
-                                    <button class="btn btn-sucess text-white pageButton" type="button " id="button-addon2 ">Subscribe</button>
                                 </div>
                             </div>
+
+                            <div class="form-group row ">
+                                <div class="col-md-12 ">
+                                    <textarea id="form-message " name="message " class="form-control " placeholder="Write your message. " cols="30 " rows="10 "></textarea>
+                                    <div class="help-block with-errors "></div>
+                                </div>
+                            </div>
+                            <div class="form-group row ">
+                                <div class="col-md-6 mr-auto ">
+                                    <input type="submit" class="btn btn-block text-white py-3 px-5 pageButton" value="Send Message ">
+                                </div>
+                            </div>
+                            <div class="messages "></div>
+                        </form>
+
                     </div>
 
+                </div>
+            </div>
+        </div>
 
-                    <!-- <h2 class="footer-heading mb-4 ">Follow Us</h2>
+
+
+        <footer class="site-footer">
+            <div class="container border-top pt-5">
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <div class="row ">
+                            <div class="col-md-7 ">
+                                <h4 class="footer-heading mb-4"><i class="fa fa-map-marker "></i> Address</h4>
+                                <p class="text-white">Office ***, Building ***,<br> Pretoria <br>South Africa</p>
+
+                                <h4 class="footer-heading mb-2"><i class="fa fa-envelope-square "></i> Email
+                                </h4>
+                                <p class="text-white">info@skygold.co.za</p>
+
+                                <h4 class="footer-heading mb-2"><i class="fa fa-phone-square "></i> Call Us</h4>
+                                <p class="text-white">+234 25555555</p>
+
+                            </div>
+                            <div class="col-md-4 ml-auto ">
+                                <h2 class="footer-heading mb-4">Features</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="# ">About Us</a></li>
+                                    <li><a href="#">Why Us</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Partners</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 ml-auto ">
+
+                        <div class="mb-5 ">
+                            <h2 class="footer-heading mb-4 ">Subscribe to Newsletter</h2>
+                            <form action="# " method="post " class="footer-suscribe-form ">
+                                <div class="input-group mb-3 ">
+                                    <input type="text " class="form-control border-secondary text-white bg-transparent " placeholder="Enter Email " aria-label="Enter Email " aria-describedby="button-addon2 ">
+                                    <div class="input-group-append ">
+                                        <button class="btn btn-sucess text-white pageButton" type="button " id="button-addon2 ">Subscribe</button>
+                                    </div>
+                                </div>
+                        </div>
+
+
+                        <!-- <h2 class="footer-heading mb-4 ">Follow Us</h2>
                     <a href="#" target="_blank " class="smoothscroll pl-0 pr-3 "><span class="icon-facebook "></span></a>
                     <a href="#" target="_blank " class="pl-3 pr-3 "><span
                             class="icon-twitter "></span></a>
                     <a href="# " class="pl-3 pr-3 "><span class="icon-instagram "></span></a>
                     <a href="#" target="_blank " class="pl-3 pr-3 "><span class="icon-linkedin "></span></a> -->
-                    </form>
-                </div>
-            </div>
-            <div class="row pt-5 mt-3 text-center ">
-                <div class="col-md-12 ">
-                    <div class="border-top pt-5 ">
-                        <p class="text-center mx-auto ">Copyright &copy; <span id="year"></span>. Designed for SkyGold <br> Designed by <a href="http://www.iamdemmy.com/ "><span
-                                    class="demmy">IamDEMMY</span></a> </p>
+                        </form>
                     </div>
                 </div>
+                <div class="row pt-5 mt-3 text-center ">
+                    <div class="col-md-12 ">
+                        <div class="border-top pt-5 ">
+                            <p class="text-center mx-auto ">Copyright &copy; <span id="year"></span>. Designed for SkyGold <br> Designed by <a href="http://www.iamdemmy.com/ "><span
+                                    class="demmy">IamDEMMY</span></a> </p>
+                        </div>
+                    </div>
 
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     </div>
 
     <script src="js/jquery-3.3.1.min.js "></script>
     <script src="js/popper.min.js "></script>
     <script src="js/bootstrap.min.js "></script>
     <script src="js/scrollIt.js"></script>
-
+    <!-- <script src="js/jquery.slicknav.min.js"></script> -->
     <script src="https://use.fontawesome.com/releases/v5.4.2/js/all.js "></script>
     <!-- <script src="js/owl.carousel.min.js "></script> -->
     <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js "></script>
@@ -439,7 +458,7 @@
     <script src="js/jquery.animateNumber.min.js "></script>
     <script src="js/jquery.fancybox.min.js "></script>
     <script src="js/jquery.easing.1.3.js "></script>
-    <script src="js/jquery.slicknav.min.js"></script>
+
     <script src="js/slick.min.js"></script>
     <script src="js/aos.js "></script>
     <script src="js/isotope.pkgd.min.js"></script>
@@ -448,7 +467,7 @@
     <script src="//unpkg.com/bootstrap-select-country@4.0.0/dist/js/bootstrap-select-country.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js " integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin=" anonymous "></script>
     <script src="js/nice-select.min.js"></script>
-
+    <script src="js/main.js "></script>
     <script src="js/main1.js "></script>
     <script src="js/contact.js "></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
@@ -460,6 +479,15 @@
     </script>
     <script>
         $('.countrypicker').countrypicker();
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.site-navbar .dmenu').hover(function() {
+                $(this).find('.sm-menu').first().stop(true, true).slideDown(150)
+            }, function() {
+                $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+            })
+        })
     </script>
 
 

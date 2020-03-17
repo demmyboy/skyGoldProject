@@ -1034,8 +1034,9 @@ a:active {
     }
 }
 
-@media (max-width: 767px) {
-    /* line 4, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slick-nav.scss */
+
+/*@media (max-width: 767px) {
+   line 4, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slick-nav.scss 
     .mobile_menu {
         position: absolute;
         right: 0px;
@@ -1043,6 +1044,7 @@ a:active {
         z-index: 9;
     }
 }
+*/
 
 
 /* line 13, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_slick-nav.scss */
