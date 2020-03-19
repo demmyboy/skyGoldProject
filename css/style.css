@@ -121,15 +121,15 @@ a:hover {
 }
 
 .demmy {
-    color: #d0b336;
+    color: #FAF22F;
 }
 
 .dropdown-divider {
-    border-top: 2px solid #d0b336 !important;
+    border-top: 2px solid #1cabe1 !important;
 }
 
 .dropdown-toggle:after {
-    color: #d0b336;
+    color: #1cabe1;
 }
 
 .dropdown-item:focus,
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .site-footer .border-top {
-    border-top: 1px solid #d0b336 !important;
+    border-top: 1px solid #f1f13c !important;
 }
 
 .site-footer p {
@@ -330,7 +330,7 @@ a:hover {
     background-color: white;
     padding: 15px;
     margin-bottom: 5px;
-    box-shadow: 2px 2px 5px #d0b336;
+    box-shadow: 2px 2px 5px #1cabe1;
 }
 
 .review-item .review-date {
@@ -406,7 +406,7 @@ a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .active {
-    color: #d0b336 !important;
+    color: #1CABE1 !important;
     /* text-transform: uppercase; */
 }
 
@@ -782,7 +782,7 @@ a:hover {
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-    color: #d0b336 !important;
+    color: #1cabe1 !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar ul li a {
@@ -790,7 +790,7 @@ a:hover {
 }
 
 .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-    color: #d0b336 !important;
+    color: #1cabe1 !important;
 }
 
 .sticky-wrapper .shrink {
@@ -1044,9 +1044,10 @@ a:hover {
     color: #000 !important;
 }
 
-.footer-suscribe-form .btn {
+
+/* .footer-suscribe-form .btn {
     color: #fff;
-}
+} */
 
 .program {
     background: #fff;
@@ -1143,7 +1144,7 @@ h3.heading {
 .heading-underline {
     width: 40rem;
     height: .1rem;
-    background-color: #d0b336;
+    background-color: #1cabe1;
     margin: 0 auto 2rem;
 }
 
@@ -1305,8 +1306,10 @@ h3.featured-price {
 }
 
 .pageButton {
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%) !important;
+    background: #FAF22F!important;
     border-color: #fff;
+    color: #000;
+    font-weight: 800;
 }
 
 .pageButton:hover {
@@ -1337,7 +1340,7 @@ h3.featured-price {
 .step-heading .num {
     width: 32px;
     height: 32px;
-    background-color: #d0b336;
+    background-color: #1cabe1;
     font-size: 18px;
 }
 
@@ -1353,7 +1356,7 @@ h3.featured-price {
 }
 
 .step-heading a {
-    color: #d0b336;
+    color: #1cabe1;
 }
 
 
@@ -1800,18 +1803,16 @@ h3 {
 
 .boxed-btn3 {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#FF3414+0,fd8e5e+100 */
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-    ;
-    color: #fff;
+    background: #FAF22F!important;
     display: inline-block;
     padding: 18px 42px;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 800;
     border: 0;
     border: 1px solid transparent;
     text-align: center;
-    color: #fff !important;
+    color: #000 !important;
     text-transform: capitalize;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -1840,7 +1841,7 @@ h3 {
 }
 
 .aboutus-title::after {
-    background: #DAA520 none repeat scroll 0 0;
+    background: #f1fa3c none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -1899,8 +1900,7 @@ a:active {
 }
 
 .boxed-btn3:hover {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#FF3414+0,fd8e5e+100 */
-    color: #fff !important;
+    color: #000 !important;
     border: 1px solid #A57C00;
     background: transparent;
 }
@@ -1942,10 +1942,6 @@ a:active {
 
 #contact-section {
     background-color: #001540 !important;
-}
-
-.pageButton {
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
 
 .site-footer {
@@ -2343,7 +2339,7 @@ boxed-btn3-white.large-width {
 
 .chose_area .about_image:before {
     position: absolute;
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background: #f1fa3c;
     ;
     right: -10px;
     bottom: -10px;
