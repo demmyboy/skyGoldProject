@@ -303,3 +303,20 @@
 
 
  });
+
+ //  let name = prompt('Please what is your name');
+ //  let result = "Hello my name is" + name; 
+ //  let nameQuestion = "What is my name?"; 
+
+ // //  let hobby = "Bike ride";
+
+ //  function getReply(command) {
+ //      if (command === result) {
+ //         return "Nice to meet you " + name;
+ //      } else if (command === nameQuestion){
+ //          return "Your name is " + name; 
+ //      }
+ //  }
+ //  console.log(getReply('Hello my name is' + name));
+ // console.log(getReply('What is my name?'));
+ // //  console.log(getReply('Add Bike ride the 3/5-2019 to my calendar'));
